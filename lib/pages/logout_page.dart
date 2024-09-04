@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({super.key});
+class LogOutPage extends StatelessWidget {
+  const LogOutPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("This is the Second Page"),
+        title: Text("Log Out Page"),
       ),
     );
   }
